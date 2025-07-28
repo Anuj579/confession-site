@@ -100,14 +100,14 @@ export default function VoiceNote({ onPlay, onPause, onComplete }) {
 
             <div className="space-y-3 md:space-y-4">
               <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-pink-300 to-purple-300 bg-clip-text text-transparent">
-                My Voice, My Heart<span className="text-white">🎵</span>
+                My Heart<span className="text-white">🎵</span>
               </h2>
               <motion.p
                 animate={{ opacity: [0.7, 1, 0.7] }}
                 transition={{ duration: 2, repeat: Infinity }}
                 className="text-pink-200 text-lg md:text-xl"
               >
-                I recorded something special, just for you💕
+                This is something special, just for you💕
               </motion.p>
             </div>
 
@@ -148,7 +148,7 @@ export default function VoiceNote({ onPlay, onPause, onComplete }) {
             >
               <Volume2 className="w-4 h-4 md:w-5 md:h-5" />
               <span className="text-base md:text-lg">
-                {isPlaying ? "Playing my heart out..." : "Tap to hear my voice"}
+                {isPlaying ? "Playing my heart out..." : "Tap to hear to listen this"}
               </span>
             </motion.div>
 

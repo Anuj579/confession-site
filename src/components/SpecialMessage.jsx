@@ -99,7 +99,7 @@ Your devoted heart 💕`
             >
               <span className="relative z-10 flex items-center gap-1 md:gap-2">
                 <Heart className="w-4 h-4 md:w-5 md:h-5 fill-current" />
-                Listen to My Voice
+                Listen, This is for you
                 <ArrowRight className="w-4 h-4 md:w-5 md:h-5" />
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
